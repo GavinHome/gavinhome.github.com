@@ -3,13 +3,47 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 沐渊
-subtitle: 风起青萍之末, 浪成微澜之间
-description: 风起青萍之末, 浪成微澜之间----沐渊
+title: Gavin Blog
+subtitle: GavinHome
+description: 风起青萍之末, 浪成微澜之间
 keywords: gavinhome 沐渊 yangxiaomin gavinhome.github.io muyuan
-author: yangxiaomin
-language: zh-CN
+
+language: zh-cn
 timezone: Asia/Shanghai
+
+menu:
+  home: / 
+  archive: /archives
+  about: /about
+
+# banner显示的简短介绍
+subtitle_desc: 个人博客，用于分享一些在日常学习工作甚至于生活中遇到的一些比较有趣的东西。七荤八素，胡言乱语，望各位看官见谅。
+# 个人介绍
+introduction: 风起青萍之末, 浪成微澜之间！
+# 博客的favicon图标，支持本地及在线两种方式，本地请将图标放置于 themes/hexo-theme-skapp/source/img 目录下
+favicon_ico: https://blog.static.minfive.com/other/favicon.ico
+# 博客的左上角logo图标，支持本地及在线两种方式
+logo: https://blog.static.minfive.com/other/logo-text-white.png
+# 头像/二维码（用于显示在底部）二选一
+avatar: https://blog.static.minfive.com/other/qrcode.png
+# 文章的默认封面
+default_cover: https://blog.static.minfive.com/other/default_cover.png
+# header 的背景图
+header_cover: https://blog.static.minfive.com/other/banner-bg.jpg
+# 404 页面的背景图
+error_page_bg: https://blog.static.minfive.com/other/dogs.jpg
+# 页面加载loading图标
+loader_img: https://blog.static.minfive.com/other/loader.gif
+# 站长信息
+author:
+  name: yangxiaomin
+  link: https://github.com/GavinHome
+# 用于页面 footer 的站长信息
+about:
+  info: 本站是基于 Hexo 搭建的静态资源博客，主要用于分享日常学习、生活及工作的一些心得总结，欢迎点击右下角订阅 rss。
+  address: Xi'an, Shaanxi Province, China
+  email: yangxiaoming512@yeah.net
+
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -73,7 +107,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: skapp
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
