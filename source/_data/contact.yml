@@ -1,6 +1,12 @@
 - title: github
   icon: icon-github
   link: https://github.com/GavinHome
+- title: zhihu
+  icon: icon-zhihu
+  link: https://www.zhihu.com/people/jingliushui/activities
+- title: weibo
+  icon: icon-weibo
+  link: https://weibo.com/u/6858743095
 - title: email
   icon: icon-email
   link: mailto:yangxiaoming512@yeah.net

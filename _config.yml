@@ -3,8 +3,8 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Gavin Blog
-subtitle: GavinHome
+title: Gavinhome Blog
+subtitle: GavinHome Blog
 description: 风起青萍之末, 浪成微澜之间
 keywords: gavinhome 沐渊 yangxiaomin gavinhome.github.io muyuan
 
@@ -14,6 +14,7 @@ timezone: Asia/Shanghai
 menu:
   home: / 
   archive: /archives
+  article: /article
   about: /about
 
 # banner显示的简短介绍
@@ -21,19 +22,21 @@ subtitle_desc: 分享工作和生活中有趣的值得记念的事物，例如�
 # 个人介绍
 introduction: 风起青萍之末, 浪成微澜之间！
 # 博客的favicon图标，支持本地及在线两种方式，本地请将图标放置于 themes/hexo-theme-skapp/source/img 目录下
-favicon_ico: img/favicon.ico
+favicon_ico: /img/favicon.ico
 # 博客的左上角logo图标，支持本地及在线两种方式
-logo: img/logo-text-white.png
+logo: /img/logo-text-white.png
 # 头像/二维码（用于显示在底部）二选一
-avatar: img/qrcode.png
+avatar: /img/qrcode.png
 # 文章的默认封面
-default_cover: img/default_cover.png
+default_cover: /img/default_cover.png
 # header 的背景图
-header_cover: img/banner-bg.jpg
+header_cover: /img/banner-bg.jpg
 # 404 页面的背景图
-error_page_bg: img/other/dogs.jpg
+error_page_bg: /img/other/dogs.jpg
 # 页面加载loading图标
-loader_img: img/loader.gif
+loader_img: /img/loader.gif
+# 文章图片目录
+site_image_path: /img/static
 # 站长信息
 author:
   name: yangxiaomin
@@ -43,6 +46,61 @@ about:
   info: 本站点基于 Hexo 搭建的静态资源博客，主要记录工作和生活中遇到的一些有趣的事物，仅用于交流，转载请著名出处，欢迎点击右下角订阅 rss。
   address: Xi'an, Shaanxi Province, China
   email: yangxiaoming512@yeah.net
+
+# Gitalk
+gitTalk:
+  clientId: 9e9190730c0096e92ada
+  clientSecret: 241f5a5a27c8fed4af6f0e826b55df5f027724c2
+  repo: https://github.com/gavinhome/gavinhome.github.com
+  owner: GavinHome
+  admin: 
+    - GavinHome
+
+# Busuanzi
+busuanzi: true
+
+# Feed Atom
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+
+# Sitemap
+sitemap:
+  path: sitemap.xml
+
+# Math Equations Render Support
+math:
+  enable: true
+
+  # Default(true) will load mathjax/katex script on demand
+  # That is it only render those page who has 'mathjax: true' in Front Matter.
+  # If you set it to false, it will load mathjax/katex srcipt EVERY PAGE.
+  per_page: false
+
+  engine: mathjax
+  #engine: katex
+
+  # hexo-rendering-pandoc (or hexo-renderer-kramed) needed to full MathJax support.
+  mathjax:
+    # Use 2.7.1 as default, jsdelivr as default CDN, works everywhere even in China
+    cdn: //cdn.jsdelivr.net/npm/mathjax@2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+    # For newMathJax CDN (cdnjs.cloudflare.com) with fallback to oldMathJax (cdn.mathjax.org).
+    #cdn: //cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+    # For direct link to MathJax.js with CloudFlare CDN (cdnjs.cloudflare.com).
+    #cdn: //cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML
+    # For automatic detect latest version link to MathJax.js and get from Bootcss.
+    #cdn: //cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML
+
+  # hexo-renderer-markdown-it-plus (or hexo-renderer-markdown-it with markdown-it-katex plugin)
+  # needed to full Katex support.
+  katex:
+    # Use 0.7.1 as default, jsdelivr as default CDN, works everywhere even in China
+    cdn: //cdn.jsdelivr.net/npm/katex@0.7.1/dist/katex.min.css
+    # CDNJS, provided by cloudflare, maybe the best CDN, but not works in China
+    #cdn: //cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css
+    # Bootcss, works great in China, but not so well in other region
+    #cdn: //cdn.bootcss.com/KaTeX/0.7.1/katex.min.css
 
 
 # URL

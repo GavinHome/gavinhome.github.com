@@ -1,9 +1,16 @@
 ---
 title: Hello World
-tags: hexo, theme
-category: 技术文章
+
+tags:
+- hexo
+- 教程
+
+categories:
+- hexo教程
+
+date: 2019-03-29
 author: 
-  nick: yangxiaomin
+  nick: gavinhome
   link: https://www.github.com/gavinhome
 subtitle: Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
 ---
