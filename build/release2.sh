@@ -1,8 +1,8 @@
 #!/usr/bin/env sh
 set -e
 
-# git checkout master
-# git merge dev
+git checkout master
+git merge dev
 
 VERSION=`npx select-version-cli`
 
@@ -30,17 +30,17 @@ then
   # fi
   # cd ../..
 
-  # # commit
-  # git add -A
-  # git commit -m "[build] $VERSION"
+  # commit
+  git add -A
+  git commit -m "[build] $VERSION"
   # npm version $VERSION --message "[release] $VERSION" --allow-same-version
 
-  # # publish
-  # git push var master
-  # git push var refs/tags/v$VERSION
-  # git checkout dev
-  # git rebase master
-  # git push var dev
+  # publish
+  git push origin master
+  git push origin refs/tags/v$VERSION
+  git checkout dev
+  git rebase master
+  git push origin dev
 
   # if test "$VERSION" != *beta*
   # then
