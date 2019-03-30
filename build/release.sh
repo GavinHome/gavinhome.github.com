@@ -36,11 +36,17 @@ then
   npm version $VERSION --message "[release] $VERSION"
 
   # publish
+  echo 0
   git push origin master
+  echo 1
   git push origin refs/tags/v$VERSION
+  echo 2
   git checkout dev
+  echo 3
   git rebase master 
+  echo 4
   git push origin dev
+  echo 5
 
   # if [[ $VERSION =~ "beta" ]]
   # then
