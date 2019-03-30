@@ -51,7 +51,7 @@ about:
 gitTalk:
   clientId: 9e9190730c0096e92ada
   clientSecret: 241f5a5a27c8fed4af6f0e826b55df5f027724c2
-  repo: https://github.com/gavinhome/gavinhome.github.com
+  repo: gavinhome.github.io
   owner: GavinHome
   admin: 
     - GavinHome
