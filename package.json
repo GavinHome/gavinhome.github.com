@@ -11,9 +11,9 @@
     "clean": "hexo clean",
     "dev": "npm run clean && npm run build:file && hexo server",
     "dist": "npm run clean && npm run build:file",
-    "pub": "sh build/git-release.sh && sh build/release.sh && sh build/deploy.sh",
-    "pub2": "sh build/git-release.sh && sh build/release2.sh && sh build/deploy.sh",
-    "deploy": "sh build/deploy.sh"
+    "pub": "sh build/git-release.sh && sh build/release.sh && npm run dist && npm run deploy",
+    "pub2": "sh build/git-release.sh && sh build/release2.sh && npm run dist && npm run deploy",
+    "deploy": "hexo deploy"
   },
   "dependencies": {
     "hexo": "^3.8.0",
