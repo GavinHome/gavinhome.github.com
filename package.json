@@ -1,9 +1,19 @@
 {
-  "name": "hexo-site",
+  "name": "gavinhome-blog-site",
   "version": "0.0.0",
   "private": true,
   "hexo": {
     "version": "3.8.0"
+  },
+  "scripts": {
+    "bootstrap": "yarn || npm i",
+    "build:file": "npm run bootstrap && hexo generate",
+    "clean": "hexo clean",
+    "dev": "npm run clean && npm run build:file && hexo server",
+    "dist": "npm run clean && npm run build:file",
+    "pub": "sh build/git-release.sh && sh build/release.sh && sh build/deploy.sh",
+    "pub2": "sh build/git-release.sh && sh build/release2.sh && sh build/deploy.sh",
+    "deploy": "sh build/deploy.sh"
   },
   "dependencies": {
     "hexo": "^3.8.0",
