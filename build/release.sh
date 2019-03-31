@@ -29,13 +29,14 @@ then
   #   echo 'npm publish theme....'
   # fi
   # cd ../..
-  echo $VERSION
   npm version $VERSION --message "[release] $VERSION"
   node ./build/bin/version.js
 
   # commit
   git add -A
   git commit -m "[build] $VERSION"
+  npm version $VERSION --message "[release] $VERSION"
+  echo $VERSION
 
   # publish
   git push origin master
@@ -48,7 +49,7 @@ then
   # then
   #   npm publish --tag beta
   #   echo 'npm publish beta....'
-  # else
+  # else  
   #   npm publish
   #   echo 'npm publish....'
   # fi
