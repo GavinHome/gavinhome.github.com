@@ -1,7 +1,11 @@
 ---
 title: matplotlib可视化数据
-tags: matplotlib
-category: Python
+tags: 
+- matplotlib
+
+category: 
+- Python
+
 date: 2017-08-25 15:57:06 +0800
 cover: /img/static/2017-08-12/output_14_0.png
 author: 

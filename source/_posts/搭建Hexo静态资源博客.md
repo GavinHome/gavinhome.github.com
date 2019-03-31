@@ -1,12 +1,11 @@
 ---
-title: Hello World
+title: ??Hexo??????
 
 tags:
 - hexo
-- 教程
 
 categories:
-- hexo教程
+- hexo
 
 date: 2019-03-29
 author: 

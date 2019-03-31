@@ -1,7 +1,11 @@
 ---
 title: 线性回归
-tags: 机器学习
-category: 机器学习
+tags: 
+- 机器学习
+
+category: 
+- 机器学习
+
 date: 2017-08-25 15:57:06 +0800
 cover: /img/static/2017-08-25/output_32_1.png
 author: 

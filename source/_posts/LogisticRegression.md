@@ -1,7 +1,11 @@
 ---
 title: Logistic回归
-tags: 机器学习
-category: 机器学习
+tags: 
+- 机器学习
+
+category: 
+- 机器学习
+
 date: 2017-08-26 10:57:06 +0800
 cover: /img/static/2017-08-26/output_34_0.png
 author: 
