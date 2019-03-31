@@ -31,8 +31,11 @@ then
   # cd ../..
 
   # commit
+  echo 'a'
   git add -A
+  echo 'b'
   git commit -m "[build] $VERSION"
+  echo 'c'
   npm version $VERSION --message "[release] $VERSION"
 
   # publish
