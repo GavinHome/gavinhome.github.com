@@ -1,8 +1,8 @@
 #!/usr/bin/env sh
 set -e
 
-git checkout master
-git merge dev
+# git checkout master
+# git merge dev
 
 VERSION=`npx select-version-cli`
 
@@ -29,27 +29,20 @@ then
   #   echo 'npm publish theme....'
   # fi
   # cd ../..
+  echo $VERSION
+  node ./build/bin/version.js
 
   # commit
-  echo 'a'
-  git add -A
-  echo 'b'
-  git commit -m "[build] $VERSION"
-  echo 'c'
+  # git add -A
+  # git commit -m "[build] $VERSION"
   # npm version $VERSION --message "[release] $VERSION"
 
-  # publish
-  echo 0
-  git push origin master
-  echo 1
-  git push origin refs/tags/v$VERSION
-  echo 2
-  git checkout dev
-  echo 3
-  git rebase master 
-  echo 4
-  git push origin dev
-  echo 5
+  # # publish
+  # git push origin master
+  # git push origin refs/tags/v$VERSION
+  # git checkout dev
+  # git rebase master 
+  # git push origin dev
 
   # if [[ $VERSION =~ "beta" ]]
   # then
