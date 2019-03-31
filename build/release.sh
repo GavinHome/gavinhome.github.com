@@ -36,7 +36,7 @@ then
   echo 'b'
   git commit -m "[build] $VERSION"
   echo 'c'
-  npm version $VERSION --message "[release] $VERSION"
+  # npm version $VERSION --message "[release] $VERSION"
 
   # publish
   echo 0
