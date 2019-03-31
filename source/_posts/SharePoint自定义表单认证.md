@@ -5,7 +5,6 @@ tags:
 - SharePoint
 - 身份验证
 - FBA
-- Forms Based Authentication
 
 categories:
 - SharePoint
