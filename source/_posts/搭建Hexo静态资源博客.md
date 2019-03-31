@@ -8,6 +8,7 @@ categories:
 - hexo
 
 date: 2019-03-29
+cover: /img/cover/you-are-got-this.jpeg
 author: 
   nick: gavinhome
   link: https://www.github.com/gavinhome
