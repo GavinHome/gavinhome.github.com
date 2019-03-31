@@ -9,11 +9,11 @@
     "bootstrap": "yarn || npm i",
     "build:file": "npm run bootstrap && hexo generate",
     "clean": "hexo clean",
-    "dev": "npm run clean && npm run build:file && hexo server",
+    "dev": "npm run dist && hexo server",
     "dist": "npm run clean && npm run build:file",
-    "pub": "sh build/git-release.sh && sh build/release.sh && npm run dist && npm run deploy",
-    "pub2": "sh build/git-release.sh && sh build/release2.sh && npm run dist && npm run deploy",
-    "deploy": "hexo deploy"
+    "pub": "sh build/git-release.sh && sh build/release.sh && npm run deploy",
+    "pub2": "sh build/git-release.sh && sh build/release2.sh && npm run deploy",
+    "deploy": "npm run dist && hexo deploy"
   },
   "dependencies": {
     "hexo": "^3.8.0",

@@ -16,19 +16,8 @@ then
   # build
   VERSION=$VERSION npm run dist
 
-  # # publish theme
-  # echo "Releasing theme-chalk $VERSION ..."
-  # cd packages/theme-chalk
-  # npm version $VERSION --message "[release] $VERSION" --allow-same-version
-  # if test "$VERSION" != *beta*
-  # then
-  #   npm publish
-  #   echo 'npm publish theme....'
-  # else
-  #   npm publish --tag beta
-  #   echo 'npm publish theme beta....'
-  # fi
-  # cd ../..
+  # version
+  node ./build/bin/version.js $VERSION
 
   # commit
   git add -A
@@ -41,13 +30,4 @@ then
   git checkout dev
   git rebase master
   git push origin dev
-
-  # if test "$VERSION" != *beta*
-  # then
-  #   npm publish
-  #   echo 'npm publish....'
-  # else
-  #   npm publish --tag beta
-  #   echo 'npm publish beta....'
-  # fi
 fi
