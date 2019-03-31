@@ -21,11 +21,8 @@ then
 
   # commit
   git add -A
-  echo $VERSION
   git commit -m "[build] $VERSION"
-  echo $VERSION
   npm version $VERSION --message "[release] $VERSION"
-  echo $VERSION
 
   # publish
   git push origin master
