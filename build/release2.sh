@@ -22,7 +22,7 @@ then
   # commit
   git add -A
   git commit -m "[build] $VERSION"
-  # npm version $VERSION --message "[release] $VERSION" --allow-same-version
+  npm version $VERSION --message "[release] $VERSION" --allow-same-version
 
   # publish
   git push origin master
