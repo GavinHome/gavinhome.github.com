@@ -95,8 +95,6 @@ data.head()
 ```
 
 
-
-
 <div>
 <table class="dataframe">
   <thead>
