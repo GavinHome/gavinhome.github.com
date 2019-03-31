@@ -29,7 +29,7 @@ then
   #   echo 'npm publish theme....'
   # fi
   # cd ../..
-  npm version $VERSION --message "[release] $VERSION"
+  # npm version $VERSION --message "[release] $VERSION"
   node ./build/bin/version.js
 
   # commit
