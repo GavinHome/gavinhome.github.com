@@ -1,10 +1,10 @@
 ---
 title: 统计SqlServer数据库表规模
 
-tags:
+tags: 
 - SqlServer
 
-categories:
+categories: 
 - SqlServer
 
 date: 2019-02-28

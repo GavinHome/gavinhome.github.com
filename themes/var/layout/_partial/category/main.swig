@@ -1,5 +1,7 @@
 <main class="page__container page__main">
     <div class="page__content">
+        {{ blog_category_menu(page) }}
+        
         <div class="page__posts clearfix">
             {% for post in page.posts %}
                 <div class="page__post">

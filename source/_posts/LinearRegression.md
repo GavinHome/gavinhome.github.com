@@ -3,7 +3,7 @@ title: 线性回归
 tags: 
 - 机器学习
 
-category: 
+categories: 
 - 机器学习
 
 date: 2017-08-25 15:57:06 +0800

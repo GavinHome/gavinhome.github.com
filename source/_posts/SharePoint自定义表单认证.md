@@ -1,12 +1,10 @@
 ---
 title: SharePoint 2016：自定义表单认证（Forms Based Authentication）
 
-tags:
+tags: 
 - SharePoint
-- 身份验证
-- FBA
 
-categories:
+categories: 
 - SharePoint
 
 date: 2018-09-28

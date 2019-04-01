@@ -1,12 +1,10 @@
 ---
 title: SharePoint基于表单身份验证的自定义登录页
 
-tags:
+tags: 
 - SharePoint
-- 身份验证
-- 自定义登录
 
-categories:
+categories: 
 - SharePoint
 
 date: 2018-09-28

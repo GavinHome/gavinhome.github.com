@@ -2,10 +2,10 @@
 title: 获取Rtx用户状态方法
 
 tags: 
-- 技术文章
+- RTX
 
-category: 
-- 技术文章
+categories: 
+- 其他
 
 date: 2017-02-23 21:50:00 +0800
 cover: /img/cover/person-using-smartphone.jpeg

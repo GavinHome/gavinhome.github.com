@@ -1,11 +1,11 @@
 ---
 title: 搭建Hexo静态资源博客
 
-tags:
-- hexo
+tags: 
+- Hexo
 
-categories:
-- hexo
+category: 
+- Hexo
 
 date: 2019-03-29
 cover: /img/cover/two-black-flat-screen-computer-monitors.jpeg
