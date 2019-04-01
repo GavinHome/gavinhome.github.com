@@ -212,6 +212,44 @@ hexo.extend.helper.register('get_setting', function(...keys) {
     return keys.reduce((p, key) => (p || this.config[key] || this.theme[key]), void 0);
 });
 
+hexo.extend.helper.register('blog_category_menu', function(page) {
+    let menu = [];
+    let categories = this.site.categories;
+    categories.forEach((cate,inx) => {
+        menu.push(cate.name);
+    });
+
+    menu = menu.map((item, idx) => {
+            let baseLink = Util.format(`${this.config.category_dir}/%d/`, item);
+            return {
+                label: item,
+                baseLink: baseLink,
+                link: this.url_for(baseLink)
+            }
+        });
+
+    let menuHtml = menu.map(item => {
+        let isSelect = page.base === `${item.baseLink}${item.label}/`;
+
+        return `
+            <a
+                class="nav__item${isSelect ? ' nav__item--selected' : ''}"
+                href="${isSelect ? 'javascript:void(0)' : item.link}"
+                alt="${item.label}">
+                ${item.label}
+            </a>
+        `
+    }).join('');
+
+    page['_category_menu'] = menu;
+
+    return `
+        <nav class="mb-main__nav">
+            ${menuHtml}
+        </nav> 
+    `;
+});
+
 hexo.extend.helper.register('tags', function() {
     let tags = this.site.tags.sort('name', 1).filter(tag => tag.length);
 
