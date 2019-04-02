@@ -28,15 +28,13 @@ logo: /img/logo-text-white.png
 # 头像/二维码（用于显示在底部）二选一
 avatar: /img/qrcode.png
 # 文章的默认封面
-default_cover: /img/default_cover.png
+default_cover: /img/default_cover.jpg
 # header 的背景图
 header_cover: /img/banner-bg.jpg
 # 404 页面的背景图
-error_page_bg: /img/other/dogs.jpg
+error_page_bg: /img/404-bg.jpg
 # 页面加载loading图标
 loader_img: /img/loader.gif
-# 文章图片目录
-site_image_path: /img/static
 # 站长信息
 author:
   name: yangxiaomin
