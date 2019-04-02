@@ -7,7 +7,7 @@
   },
   "scripts": {
     "bootstrap": "yarn || npm i",
-    "build:file": "hexo generate",
+    "build:file": "npm run bootstrap && hexo generate",
     "clean": "hexo clean",
     "dev": "npm run dist && hexo server",
     "dist": "npm run clean && npm run build:file",
