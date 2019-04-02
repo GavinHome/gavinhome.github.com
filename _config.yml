@@ -57,6 +57,9 @@ gitTalk:
 # Busuanzi
 busuanzi: true
 
+# Baidu statistic
+baidu_statistic: 94f0063a017191b9a0ffeb60ec162bba
+
 # Feed Atom
 feed:
   type: atom
