@@ -10,6 +10,9 @@
 - title: email
   icon: icon-email
   link: mailto:yangxiaoming512@yeah.net
+- title: juejin
+  icon: icon-juejin
+  link: https://juejin.im/user/5a621a216fb9a01cb80fd120
 - title: rss
   icon: icon-rss
   link: /atom.xml
