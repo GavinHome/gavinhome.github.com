@@ -1,4 +1,4 @@
-<main class="">
+<main class="portfolio-content">
 	<section class="portfolio-section section">
 		<!--<div class="container">
 			<div class="row">
@@ -68,6 +68,16 @@
 					<img src="/img/portfolio/portfolio-10-300x400.jpg" alt=""></a>
 				<a class="img" href="/img/portfolio/portfolio-11-300x400.jpg" data-fluidbox>
 					<img src="/img/portfolio/portfolio-11-300x400.jpg" alt=""></a>
+			</div><!-- p-item -->
+
+      <div class="p-item web-design branding">
+				<a href="/img/portfolio/portfolio-13-400x400.jpg" data-fluidbox>
+					<img src="/img/portfolio/portfolio-13-400x400.jpg" alt=""></a>
+			</div><!-- p-item -->
+      
+      <div class="p-item web-design branding">
+				<a href="/img/portfolio/slider-1-1920x1080.jpg" data-fluidbox>
+					<img src="/img/portfolio/slider-1-1920x1080.jpg" alt=""></a>
 			</div><!-- p-item -->
 		
 		</div><!-- portfolioContainer -->
