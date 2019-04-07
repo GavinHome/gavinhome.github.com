@@ -6,7 +6,8 @@ menu:
   about: About
   docs: Docs
   archive: Archive
-  tags: Tags
+  tags: Tags,
+  portfolio: Portfolio
 
 aside:
   introduction: Introduction

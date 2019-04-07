@@ -15,6 +15,7 @@ menu:
   home: / 
   archive: /archives
   article: /article
+  portfolio: /portfolio
   about: /about
 
 # banner显示的简短介绍

@@ -6,7 +6,8 @@ menu:
   about: 关于
   docs: 文档
   archive: 归档
-  tags: 标签
+  tags: 标签,
+  portfolio: 作品
 
 aside:
   introduction: 简介
