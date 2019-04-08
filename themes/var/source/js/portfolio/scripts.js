@@ -48,7 +48,7 @@
 	});
 	
 	if ( $.isFunction($.fn.fluidbox) ) {
-		$('a').fluidbox();
+		$('a[data-fluidbox]').fluidbox();
 	}
 	
 	// var countCounterUp = 0;

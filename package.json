@@ -7,7 +7,7 @@
   },
   "scripts": {
     "bootstrap": "yarn || npm i",
-    "build:file": "npm run bootstrap && hexo generate",
+    "build:file": "node build/bin/build_portfolio.js && npm run bootstrap && hexo generate",
     "clean": "hexo clean",
     "dev": "npm run dist && hexo server",
     "dist": "npm run clean && npm run build:file",
@@ -32,6 +32,7 @@
     "hexo-renderer-stylus": "^0.3.3",
     "hexo-renderer-swig": "^1.1.0",
     "hexo-server": "^0.3.3",
+    "json-templater": "^1.2.0",
     "lunr": "mamboer/lunr.js",
     "moment": "^2.24.0",
     "node-sass": "^4.11.0",

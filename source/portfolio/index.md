@@ -1,4 +1,4 @@
 ---
-title: 图集
+title: 摄影作品
 layout: portfolio
 ---
